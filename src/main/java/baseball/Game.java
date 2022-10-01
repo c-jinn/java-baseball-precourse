@@ -79,7 +79,7 @@ public class Game {
         if(RL.length() != 3  ){
             throw new IllegalArgumentException();
         }
-        UserBaseball.setBallAfterToChar(RL.charAt(0),RL.charAt(1),RL.charAt(2));
+        UserBaseball.setBall(RL.charAt(0),RL.charAt(1),RL.charAt(2));
     }
 
     public boolean isRestartGame() {

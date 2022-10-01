@@ -13,6 +13,11 @@ public class Baseball {
         this.third = third;
     }
 
+    public Baseball(int first, int second, int third) {
+        this.first = (char) (first + '0');
+        this.second = (char) (second + '0');
+        this.third = (char) (third + '0');
+    }
     public Baseball() {
 
     }
@@ -48,11 +53,6 @@ public class Baseball {
         this.setThird((char) (thirdBall + '0'));
     }
 
-    public void setBallAfterToChar(char firstBall, char secondBall, char thirdBall) {
-        this.setFirst( firstBall);
-        this.setSecond(secondBall);
-        this.setThird(thirdBall);
-    }
 
     @Override
     public String toString() {
@@ -61,5 +61,11 @@ public class Baseball {
                 +", second : " + second
                 + ", third : "  + third
                 +" }";
+    }
+
+    public void setBall(char firstBall, char secondBall, char thirdBall) {
+        this.setFirst( firstBall);
+        this.setSecond(secondBall);
+        this.setThird(thirdBall);
     }
 }
