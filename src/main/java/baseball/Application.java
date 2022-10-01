@@ -9,6 +9,27 @@ public class Application {
         // TODO: 프로그램 구현
 //        balls counterBalls ;
 
+        boolean continueFlag = true;
+
+        while (continueFlag){
+
+//            Balls ball = new Balls((char) 0, (char) 0, (char) 0);
+//            GenerateCounterBalls generateCounterBalls = new GenerateCounterBalls();
+//            generateCounterBalls.generate(ball);
+//
+//
+//            System.out.println("--");
+//            System.out.println(ball.getFirst());
+//            System.out.println(ball.getSecond());
+//            System.out.println(ball.getThird());
+//            continueFlag = false;
+        }
+
+
+
+
+
+
 
 
         //System.out.println(pickNumberInRange(1, 999));

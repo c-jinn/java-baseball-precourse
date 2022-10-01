@@ -1,6 +1,18 @@
 package baseball;
 
-public class balls {
+public class Balls {
+
+    private char first;
+    private char second;
+    private char third;
+
+
+    public Balls(char first, char second, char third) {
+        this.first = first;
+        this.second = second;
+        this.third = third;
+    }
+
     public char getFirst() {
         return first;
     }
@@ -25,14 +37,6 @@ public class balls {
         this.third = third;
     }
 
-    private char first;
-    private char second;
-    private char third;
 
 
-    public balls(char first, char second, char third) {
-        this.first = first;
-        this.second = second;
-        this.third = third;
-    }
 }
