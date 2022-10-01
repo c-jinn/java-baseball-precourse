@@ -54,6 +54,7 @@ public class Application {
 
 
             //점수 표시
+
             int b = 0;
             int s = 0;
 //            String v1;
@@ -66,7 +67,8 @@ public class Application {
                 String v1 = readLine();
 
                 if(v1.length() != 3){
-                    System.out.println("length is wrong");
+//                    System.out.println("length is wrong");
+                    throw new IllegalArgumentException();
                 }
 
                 //볼 점수 평가
@@ -126,7 +128,7 @@ public class Application {
 
             }
             if(s==3) {
-                System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임종료");
+                System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
                 System.out.println("게임을 새로시작하려면 1, 종료하려면 2를 입력하세요.");
                 if(readLine().equals("1")){
                     continueFlag = true;
